@@ -1,7 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 #
 # Makefile for the linux kernel signature checking certificates.
-#
 
 obj-$(CONFIG_SYSTEM_TRUSTED_KEYRING) += system_keyring.o system_certificates.o common.o
 obj-$(CONFIG_SYSTEM_BLACKLIST_KEYRING) += blacklist.o common.o
